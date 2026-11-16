@@ -9,8 +9,8 @@ import (
 
 	"github.com/wroge/wgs84/v2"
 
-	"github.com/tdewolff/canvas"
-	"github.com/tdewolff/canvas/renderers"
+	"github.com/scttfrdmn/canvas"
+	"github.com/scttfrdmn/canvas/renderers"
 )
 
 func read(filename string) (*canvas.Path, error) {

@@ -8,8 +8,8 @@ import (
 	"path/filepath"
 	"runtime"
 
-	cimage "github.com/tdewolff/canvas/image"
-	"github.com/tdewolff/canvas/text"
+	cimage "github.com/scttfrdmn/canvas/image"
+	"github.com/scttfrdmn/canvas/text"
 )
 
 func loadFont(name string, style FontStyle) ([]byte, error) {

@@ -5,8 +5,8 @@ import (
 	"time"
 
 	"github.com/golang/freetype/truetype"
-	"github.com/tdewolff/canvas"
-	"github.com/tdewolff/canvas/renderers"
+	"github.com/scttfrdmn/canvas"
+	"github.com/scttfrdmn/canvas/renderers"
 	"github.com/wcharczuk/go-chart/v2"
 	"github.com/wcharczuk/go-chart/v2/drawing"
 )

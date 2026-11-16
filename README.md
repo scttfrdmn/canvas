@@ -1,3 +1,10 @@
+> **Fork notice (branch `inkcap`).** This is [tdewolff/canvas](https://github.com/tdewolff/canvas)
+> at `b3beae08c578` with the module path renamed to `github.com/scttfrdmn/canvas`, plus one
+> fix proposed upstream in tdewolff/canvas#397 (text shifting after an unused soft hyphen or
+> zero-width space). It exists only so [inkcap](https://github.com/scttfrdmn/inkcap) can ship
+> the fix with working `go install`. Use upstream for anything else; this branch will be
+> retired when #397 is merged. All credit for canvas belongs to its authors (MIT licence).
+
 ![Canvas](https://raw.githubusercontent.com/tdewolff/canvas/master/resources/title/title.png)
 
 *** **FUNDING REQUIRED** *** **please contact me to support this work**

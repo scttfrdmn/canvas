@@ -4,7 +4,7 @@ import (
 	"image"
 	"image/color"
 
-	"github.com/tdewolff/canvas"
+	"github.com/scttfrdmn/canvas"
 	"golang.org/x/image/draw"
 )
 

@@ -20,10 +20,10 @@ import (
 	"golang.org/x/text/encoding/charmap"
 	"golang.org/x/text/unicode/norm"
 
-	"github.com/tdewolff/canvas"
-	cimage "github.com/tdewolff/canvas/image"
-	"github.com/tdewolff/canvas/text"
-	ctext "github.com/tdewolff/canvas/text"
+	"github.com/scttfrdmn/canvas"
+	cimage "github.com/scttfrdmn/canvas/image"
+	"github.com/scttfrdmn/canvas/text"
+	ctext "github.com/scttfrdmn/canvas/text"
 	cfont "github.com/tdewolff/font"
 )
 

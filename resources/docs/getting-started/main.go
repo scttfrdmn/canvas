@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/tdewolff/canvas"
-	"github.com/tdewolff/canvas/renderers"
+	"github.com/scttfrdmn/canvas"
+	"github.com/scttfrdmn/canvas/renderers"
 )
 
 func main() {

@@ -8,8 +8,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/tdewolff/canvas"
-	cimage "github.com/tdewolff/canvas/image"
+	"github.com/scttfrdmn/canvas"
+	cimage "github.com/scttfrdmn/canvas/image"
 	"github.com/tdewolff/test"
 )
 

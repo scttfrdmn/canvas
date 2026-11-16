@@ -15,9 +15,9 @@ import (
 	"math"
 	"strings"
 
-	"github.com/tdewolff/canvas"
-	cimage "github.com/tdewolff/canvas/image"
-	ctext "github.com/tdewolff/canvas/text"
+	"github.com/scttfrdmn/canvas"
+	cimage "github.com/scttfrdmn/canvas/image"
+	ctext "github.com/scttfrdmn/canvas/text"
 	"github.com/tdewolff/font"
 )
 
