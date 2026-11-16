@@ -1,9 +1,14 @@
-> **Fork notice (branch `inkcap`).** This is [tdewolff/canvas](https://github.com/tdewolff/canvas)
-> at `b3beae08c578` with the module path renamed to `github.com/scttfrdmn/canvas`, plus one
-> fix proposed upstream in tdewolff/canvas#397 (text shifting after an unused soft hyphen or
-> zero-width space). It exists only so [inkcap](https://github.com/scttfrdmn/inkcap) can ship
-> the fix with working `go install`. Use upstream for anything else; this branch will be
-> retired when #397 is merged. All credit for canvas belongs to its authors (MIT licence).
+> **Fork notice (branch `inkcap`).** [tdewolff/canvas](https://github.com/tdewolff/canvas) at
+> `b3beae08c578`, with the module path renamed to `github.com/scttfrdmn/canvas` so
+> [inkcap](https://github.com/scttfrdmn/inkcap) can ship fixes with working `go install`.
+> Changes on top of upstream:
+> - text after an unused soft hyphen or zero-width space no longer shifts (proposed upstream as tdewolff/canvas#397)
+> - `ParseLaTeX` returns TeX's log in its error instead of printing to stdout; no diagnostics are printed
+> - `RichText.WritePath` keeps the part of a path below its baseline (`TextSpanObject.Depth`)
+> - LaTeX fonts fall back to another design size for glyphs whose outline is empty (lmroman10's `g`)
+> - DVI decoding: y1–y4 and xxx1–xxx4 operand lengths, and the fnt1–fnt4 opcode range
+>
+> Use upstream for anything else. All credit for canvas belongs to its authors (MIT licence).
 
 ![Canvas](https://raw.githubusercontent.com/tdewolff/canvas/master/resources/title/title.png)
 
